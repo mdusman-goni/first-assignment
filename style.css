@@ -1,0 +1,175 @@
+body{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: #282828;
+}
+
+/****** HEADER SECTION ******/
+
+header nav{
+    float: right;
+    margin: 20px 100px;
+    display: block;
+}
+header nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: #0c0e62;
+}
+
+/****** TOP SECTION ******/
+
+.top-para h1{
+    font-size: 60px;
+    color: #0c0e62;
+    margin-bottom: 30px;
+}
+.extra-color{
+    color: #f36160;
+    font-size: 100px;
+}
+.hero-bold{
+    font-weight: 600;
+    color: #f36160;
+}
+.top-para a{
+    padding: 15px 35px;
+    border-radius: 5px;
+    background: linear-gradient(180deg, rgba(244,151,96,1) 0%, rgba(251,207,98,1) 100%);;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.top-para p{
+    margin-bottom: 65px;
+}
+.top-para{
+    width: 35%;
+    margin-left: 10%;
+    float: left;
+}
+.top-img{
+    width: 35%;
+    margin-left: 10%;
+    float: left;
+}
+.top-img img{
+    width: 100%;
+}
+.top-section{
+    clear: both;
+    height: 600px;
+}
+
+/****** SPECILIZE SECTION ******/
+
+.specilize{
+    text-align: center;
+    height: 650px;
+}
+.specilize h2{
+    font-size: 45px;
+}
+.specilize p{
+    padding-bottom: 40px;
+    color: #c0c0c0;
+}
+.all-sp{
+    width: 80%;
+    height: 300px;
+    margin: 30px auto;
+}
+.sp-part{
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+}
+.sp-part p{
+    color: #282828;
+}
+.sp-part h3{
+    text-align: center;
+    color: #0c0e62;
+}
+.sp-part img{
+    width: 100px;
+}
+
+/****** PORTFOLIO SECTION ******/
+
+
+.portfolio{
+    background-color: whitesmoke;
+    padding: 50px 0px;
+}
+.portfolio h2{
+    font-size: 50px;
+    text-align: center;
+    color: #0c0e62;
+}
+.middle{
+    text-align: center;
+}
+.all-portfolio{
+    width: 80%;
+    height: 450px;
+    margin: 0 auto;
+}
+.portfolio-exmpl{
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 50px #c0c0c0;
+}
+.portfolio-exmpl img{
+    width: 100%;
+}
+.portfolio-exmpl h3{
+    color: #c0c0c0;
+    padding: 5px 23px 3px 23px;
+}
+.portfolio-exmpl p{
+    padding: 5px 23px 3px 23px;
+    text-align: justify;
+}
+
+/****** CHAT SECTION ******/
+
+.chat-section{
+    width: 70%;
+    height: 150px;
+    margin: 200px auto;
+    background-image: url(img/background.png);
+    border-radius: 100px;
+}
+.chat-section h2 a{
+        padding: 10px 25px;
+        border-radius: 5px;
+        background: linear-gradient(180deg, rgba(244,151,96,1) 0%, rgba(251,207,98,1) 100%);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+        text-decoration: none;
+        float: right;
+        font-size: 25px;
+}
+.chat-section h2{
+    padding:47px;
+    color: #fff;
+    font-size: 45px;
+}  
+
+/****** FOOTER SECTION ******/
+
+footer{
+    text-align: center;
+    height: 200px;
+}
+footer h3{
+    color: #c0c0c0;
+}
+footer a img{
+    width: 50px;
+    padding: 15px;
+}
